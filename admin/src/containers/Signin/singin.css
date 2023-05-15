@@ -1,0 +1,14 @@
+.signinForm {
+  padding: 1rem;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  display: flex;
+  margin-left: 30%;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.signinForm img {
+  width: 40%;
+  margin-left: 37%;
+}

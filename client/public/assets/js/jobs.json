@@ -1,0 +1,46 @@
+{
+  "jobs": [
+    {
+      "position": "Financial Service",
+      "title": "Financial Service",
+      "description": "You will help us build API for our compression infrastructure.",
+      "type": "Hybride",
+      "skills": ["Account Manager"],
+      "TypeOfJob": ["OnSite","Hybride"],
+      "annualSalary": {
+        "from": 90000,
+        "to": 100000,
+        "currency": "USD"
+      },
+      "Experience":"First Job"
+    },
+    {
+      "position": "Apps Developpements",
+      "title": "Apps Developpements",
+      "description": "You will help us build API for our compression infrastructure.",
+      "type": "OnSite",
+      "skills": ["java & ajax"],
+      "TypeOfJob": ["OnSite","Hybride"],
+      "annualSalary": {
+        "from": 90000,
+        "to": 100000,
+        "currency": "USD"
+      },
+      "Experience":"internship alternant"
+    },
+    {
+      "position": "Art,DesignnMedia",
+      "title": "Art,DesignnMedia",
+      "description": "You will help us build API for our compression infrastructure.",
+      "type": "Hybride",
+      "skills": ["Iphone & Android"],
+      "TypeOfJob": ["OnSite","Hybride"],
+      "annualSalary": {
+        "from": 4000,
+        "to": 10000,
+        "currency": "USD"
+      },
+      "Experience":"first job"
+    }
+  ]
+}

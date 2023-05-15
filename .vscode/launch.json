@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Docker Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/admin/node_modules/sockjs-client/node_modules/debug/package.json",
+                "localRoot": "${workspaceFolder}/admin/node_modules/sockjs-client/node_modules/debug"
+            }
+        }
+    ]
+}

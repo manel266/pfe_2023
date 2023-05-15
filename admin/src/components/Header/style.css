@@ -1,0 +1,21 @@
+.navbar-brand {
+  color: white;
+  font-size: 18px;
+}
+
+.gadgets {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 2px 2px green;
+  margin-right: 0.5rem;
+}
+.nav-link {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  margin-right: 1rem;
+  width: 120px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}

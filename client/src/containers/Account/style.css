@@ -1,0 +1,16 @@
+.fileUploader {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.fileUploader button {
+  border-radius: 40px;
+  color: white;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  color: #052b5b;
+  font-weight: bold;
+}
+.profilImg {
+  height: 30vh;
+}
