@@ -26,7 +26,7 @@ stage('login'){
 
 			   script {
                         sh 'docker build . -t pipeline:latest'
-						sh 'docker tag discoverymc 4587612/pipeline'
+						sh 'docker tag pipeline 4587612/pipeline'
 						sh 'docker push 4587612/pipeline'
                     }
                }
