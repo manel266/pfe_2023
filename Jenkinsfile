@@ -2,8 +2,6 @@
        
 pipeline {
 	agent any
-
-
     stages {
 
         stage('Build du projet') {
