@@ -1,24 +1,15 @@
-
-
 pipeline {
-    agent any
-
-    environment {
-        MONGODB_URI = credentials('mongodb-uri')
-        TOKEN_KEY = credentials('token-key')
-        EMAIL = credentials('email')
-        PASSWORD = credentials('password')
+    agent {
+        docker {
+            image 'node:lts-bullseye-slim' 
+            args '-p 3000:3000' 
+        }
     }
-
     stages {
-        stage('Checkout') {
+        stage('Build') { 
             steps {
-                checkout scm
+                sh 'npm install' 
             }
         }
-
-        // Ajoutez ici les autres étapes de votre pipeline
-
     }
 }
-
