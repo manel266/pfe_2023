@@ -15,25 +15,5 @@ pipeline {
 
             }
         }
-
-stage('login'){
-        steps{
-          sh 'docker login --username=4587612 --password=Fightforme1234'
-        }
-  }
-
-
-	stage('Construction image') {
-            steps {
-                 unstash 'targetfiles'
-
-			   script {
-                        sh 'docker build . -t pipeline:latest'
-						sh 'docker tag pipeline 4587612/pipeline'
-						sh 'docker push 4587612/pipeline'
-                    }
-
-
-               }
-            }
-    
+    }
+}
